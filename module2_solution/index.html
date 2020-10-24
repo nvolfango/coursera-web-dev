@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, scale=1">
+	<title>Assignment Solution for Module 2</title>
+	<style>
+		* {
+			box-sizing: border-box;
+			font-family: sans-serif;
+		}
+
+		div.frame {
+
+		}
+
+		div.box {
+			border: 1px solid black;
+			background-color: lightgrey;
+			padding: 5px;
+			padding-top: 20px;
+			position: relative;
+			margin: 10px;
+		}
+
+		p {
+			padding-left: 20px;
+			padding-right: 20px;
+			clear: right;
+		}		
+
+		h1 {
+			text-align: center;
+		}
+
+		span.section_title {
+			border: 1px solid black;
+			width: 100px;
+			padding-bottom: 5px;
+			padding-top: 5px;
+			text-align: center;
+			font-weight: bold;
+			margin-bottom: 5px;
+			position: absolute;
+			top: -1px;
+			right: -1px;
+		}
+
+		.bg1 {
+			background-color: beige;
+		}
+
+		.bg2 {
+			background-color: gold;
+		}
+
+		.bg3 {
+			background-color: pink;
+		}
+
+		@media (min-width: 992px) {
+			.col-lg-4 {
+				width: 33.33%;
+				float: left;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6 {
+				width: 50%;
+				float: left;
+			}
+			.col-md-12 {
+				width: 100%;
+				float: left;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.col-sm-12 {
+				width: 100%;
+				float: left;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1>Tasty Pastry</h1>
+	<div class="col-lg-4 col-md-6 .col-sm-12">
+		<div class=box>
+			<span class="section_title bg1">Doughnut</span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet, purus sed aliquam suscipit, dolor metus mattis metus, sit amet sdf facilisis dolor odio vel nulla. Prasent eu aliquam nisi. Nunc molestie maximus posuere. Donec pellentesque diam a lorem porttitor elementum. Mauris mollis turpis ac sem fermentum bibendum.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 .col-sm-12">
+		<div class="box">
+			<span class="section_title bg2">Tart</span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet, purus sed aliquam suscipit, dolor metus mattis metus, sit amet facilisis dolor odio vel nulla. Prasent eu aliquam nisi. Nunc molestie maximus posuere. Donec pellentesque diam a lorem porttitor elementum. Mauris mollis turpis ac sem fermentum bibendum.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-12 .col-sm-12">
+		<div class=box>
+			<span class="section_title bg3">Muffin</span>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet, purus sed aliquam suscipit, dolor metus mattis metus, sit amet facilisis dolor odio vel nulla. Prasent eu aliquam nisi. Nunc molestie maximus posuere. Donec pellentesque diam a lorem porttitor elementum. Mauris mollis turpis ac sem fermentum bibendum.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
